@@ -1,0 +1,14 @@
+<table>
+<tr><th>City</th><th>Population</th></tr>
+<tr><td>New York, NY</td><td>8175133</td></tr>
+<tr><td>Los Angeles, CA</td><td>3792621</td></tr>
+<tr><td>Chicago, IL</td><td>2695598</td></tr>
+<tr><td>Houston, TX</td><td>2100263</td></tr>
+<tr><td>Philadelphia, PA</td><td>1526006</td></tr>
+<tr><td>Phoenix, AZ</td><td>1445632</td></tr>
+<tr><td>San Antonio, TX</td><td>1327407</td></tr>
+<tr><td>San Diego, CA</td><td>1307402</td></tr>
+<tr><td>Dallas, TX</td><td>1197816</td></tr>
+<tr><td>San Jose, CA</td><td>945942</td></tr>
+<tr><td>Total</td><td>24513820</td></tr>
+</table>

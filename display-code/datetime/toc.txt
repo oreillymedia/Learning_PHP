@@ -1,0 +1,12 @@
+1	datetime-EX-1.php
+-	datetime-EX-1.out
+2	datetime-EX-2.php
+-	datetime-EX-2.out
+3	format-with-time.php
+-	format-with-time.out
+4	set.php
+-	set.out
+5	checkdate.php
+6	menu-loop.php
+-	menu-loop.out
+7	interval.php

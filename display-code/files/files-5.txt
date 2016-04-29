@@ -1,0 +1,1 @@
+Error opening dishes.txt: failed to open stream: Permission denied

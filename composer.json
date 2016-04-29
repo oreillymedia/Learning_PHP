@@ -1,0 +1,6 @@
+{
+    "require": {
+        "jakub-onderka/php-console-color": "^0.1.0",
+        "sebastian/diff": "^1.3"
+    }
+}

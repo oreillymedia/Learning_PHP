@@ -1,0 +1,1 @@
+<input type="checkbox" name="delivery" value="yes" checked> Delivery?<input type="radio" name="size" value="small"> Small <input type="radio" name="size" value="medium" checked> Medium <input type="radio" name="size" value="large"> Large 

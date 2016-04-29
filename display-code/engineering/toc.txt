@@ -1,0 +1,3 @@
+-	issue-comment.php
+-	config.ini
+1	config-read.php

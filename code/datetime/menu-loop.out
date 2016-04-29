@@ -1,0 +1,6 @@
+<select name='day'>
+  <option>Tuesday October 25th</option>
+  <option>Thursday October 27th</option>
+  <option>Saturday October 29th</option>
+  <option>Monday October 31st</option>
+</select>

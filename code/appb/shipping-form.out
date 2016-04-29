@@ -1,0 +1,29 @@
+<form method="POST" action="{{d}}shipping-form.php">
+<table>
+    
+    <tr><th>From:</th><td></td></tr>
+    <tr><td>Name:</td><td><input name="from_name" type="text" /></td></tr>
+    <tr><td>Address 1:</td><td><input name="from_address1" type="text" /></td></tr>
+    <tr><td>Address 2:</td><td><input name="from_address2" type="text" /></td></tr>
+    <tr><td>City:</td><td><input name="from_city" type="text" /></td></tr>
+    <tr><td>State:</td><td><select name="from_state"><option  value="0">AZ</option><option  value="1">NY</option><option  value="2">ZZ</option></select></td></tr>
+    <tr><td>ZIP:</td><td><input name="from_zip" size="5" type="text" /></td></tr>
+
+    <tr><th>To:</th><td></td></tr>
+    <tr><td>Name:</td><td><input name="to_name" type="text" /></td></tr>
+    <tr><td>Address 1:</td><td><input name="to_address1" type="text" /></td></tr>
+    <tr><td>Address 2:</td><td><input name="to_address2" type="text" /></td></tr>
+    <tr><td>City:</td><td><input name="to_city" type="text" /></td></tr>
+    <tr><td>State:</td><td><select name="to_state"><option  value="0">AZ</option><option  value="1">NY</option><option  value="2">ZZ</option></select></td></tr>
+    <tr><td>ZIP:</td><td><input name="to_zip" size="5" type="text" /></td></tr>
+
+    <tr><th>Package:</th><td></td></tr>
+    <tr><td>Weight:</td><td><input name="weight" type="text" /></td></tr>
+    <tr><td>Height:</td><td><input name="height" type="text" /></td></tr>
+    <tr><td>Width:</td><td><input name="width" type="text" /></td></tr>
+    <tr><td>Depth:</td><td><input name="depth" type="text" /></td></tr>
+
+    <tr><td colspan="2" align="center"><input value="Ship!" type="submit" />    </td></tr>
+
+</table>
+</form>

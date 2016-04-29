@@ -1,0 +1,3 @@
+@Error #6
+Uh-oh! cURL says: Could not resolve host: api.example.com
+By the way, this request took .+ seconds.@

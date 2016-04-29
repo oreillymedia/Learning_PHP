@@ -1,0 +1,1 @@
+global $dinner, $lunch, $breakfast;

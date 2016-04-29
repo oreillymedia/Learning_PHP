@@ -1,0 +1,3 @@
+-	installer.sh
+1	require.sh
+2	vendor.php

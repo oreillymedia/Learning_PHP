@@ -1,0 +1,8 @@
+<form method="POST" action="{{d}}filename-form.php">
+<table>
+    
+    <tr><td>File:</td><td><input name="file" type="text" /></td></tr>
+    <tr><td colspan="2" align="center"><input value="Display" type="submit" />    </td></tr>
+
+</table>
+</form>

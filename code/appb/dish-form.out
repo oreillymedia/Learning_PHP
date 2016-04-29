@@ -1,0 +1,12 @@
+<form method="POST" action="{{d}}dish-form.php">
+<table>
+        <tr>
+        <td>Dish:</td>
+        <td><select name="dish_id"><option  value="a">b</option><option  value="c">d</option></select></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+            <input name="info" value="Get Dish Info" type="submit" /></td>
+    </tr>
+</table>
+</form>

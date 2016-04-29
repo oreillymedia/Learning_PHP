@@ -1,0 +1,12 @@
+3,slithy@unicorn.example.com
+3,uffish@knight.example.net
+3,frumious@tweedledum.example.com
+2,beamish@lion.example.org
+1,brilling@tweedledee.example.com
+1,jubjub@sheep.example.com
+1,tumtum@queen.example.org
+1,manxome@king.example.net
+1,tulgey@carpenter.example.com
+1,vorpal@crow.example.org
+1,mimsy@walrus.example.com
+1,raths@owl.example.net

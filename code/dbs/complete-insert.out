@@ -1,0 +1,22 @@
+<form method="POST" action="{{!}}">
+<table>
+    
+    <tr>
+        <td>Dish Name:</td>
+        <td><input name="dish_name" type="text" /></td>
+    </tr>
+    <tr>
+        <td>Price:</td>
+        <td><input name="price" type="text" value="5.00" /></td>
+    </tr>
+
+    <tr>
+        <td>Spicy:</td>
+        <td><input name="is_spicy" value="yes" type="checkbox" /> Yes</td>
+    </tr>
+
+    <tr><td colspan="2" align="center">
+        <input name="save" value="Order" type="submit" />    </td></tr>
+
+</table>
+</form>

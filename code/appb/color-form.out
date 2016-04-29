@@ -1,0 +1,12 @@
+<form method="POST" action="{{d}}color-form.php">
+<table>
+        <tr>
+        <td>Favorite Color:</td>
+        <td><select name="color"><option  value="a">b</option><option  value="c">d</option></select></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+            <input name="set" value="Set Color" type="submit" /></td>
+    </tr>
+</table>
+</form>

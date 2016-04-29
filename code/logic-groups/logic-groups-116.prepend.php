@@ -1,0 +1,1 @@
+<?php $user = 'David'; ?>

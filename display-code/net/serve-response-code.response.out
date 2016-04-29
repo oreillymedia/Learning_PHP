@@ -1,0 +1,6 @@
+HTTP/1.1 403 Forbidden
+Host: www.example.com
+Connection: close
+Content-Type: application/json
+
+{"error":"bad key"}

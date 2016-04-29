@@ -1,0 +1,1 @@
+PHP Parse error:  syntax error, unexpected '$e' (T_VARIABLE), expecting identifier (T_STRING) or namespace (T_NAMESPACE) or \\ (T_NS_SEPARATOR) in {{d}}debugging-13.php on line 5

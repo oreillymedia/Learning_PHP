@@ -1,0 +1,3 @@
+could not find driver in {{d}}exception-handler.php @ 17
+#0 {{d}}exception-handler.php(17): PDO->__construct('garbage:this is...')
+#1 {main}

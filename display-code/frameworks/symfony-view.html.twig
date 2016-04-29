@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<p> At {{ when|date("g:i a") }}, here is what's available: </p>
+<ul>
+{% for item in what %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
+{% endblock %}

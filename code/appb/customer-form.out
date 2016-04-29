@@ -1,0 +1,14 @@
+<form method="POST" action="{{d}}customer-form.php">
+<table>
+        <tr>
+    <tr><td>Name:</td><td><input name="name" type="text" /></td></tr>
+    <tr><td>Phone Number:</td><td><input name="phone" type="text" /></td></tr>
+    <tr><td>Favorite Dish:</td>
+        <td><select name="dish_id"><option  value="a">b</option><option  value="c">d</option></select></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+            <input name="add" value="Add Customer" type="submit" /></td>
+    </tr>
+</table>
+</form>

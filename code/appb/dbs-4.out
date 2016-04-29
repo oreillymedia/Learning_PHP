@@ -1,0 +1,14 @@
+<form method="POST" action="{{d}}dbs-4.php">
+<table>
+        <tr>
+    <tr><td>Name:</td><td><input name="name" type="text" /></td></tr>
+    <tr><td>Phone Number:</td><td><input name="phone" type="text" /></td></tr>
+    <tr><td>Favorite Dish:</td>
+        <td><select name="dish_id"><option  value="2">Cashew Nuts and White Mushrooms</option><option  value="3">Dried Mulberries</option><option  value="4">Eggplant with Chili Sauce</option><option  value="6">General Tso's Chicken</option><option  value="5">Red Bean Bun</option><option  value="1">Walnut Bun</option></select></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+            <input name="add" value="Add Customer" type="submit" /></td>
+    </tr>
+</table>
+</form>

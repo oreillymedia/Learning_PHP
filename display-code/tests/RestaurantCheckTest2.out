@@ -1,0 +1,15 @@
+PHPUnit 4.8.11 by Sebastian Bergmann and contributors.
+
+.F
+
+Time: 129 ms, Memory: 13.50Mb
+
+There was 1 failure:
+
+1) RestaurantCheckTest::testWithNoTip
+Failed asserting that 110.0 matches expected 120.
+
+RestaurantCheckTest.php:20
+
+FAILURES!
+Tests: 2, Assertions: 2, Failures: 1.

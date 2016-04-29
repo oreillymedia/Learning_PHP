@@ -1,0 +1,9 @@
+<table>
+<tr><th>Dish Name</th><th>Price</th><th>Spicy?</th></tr>
+<tr><td>Walnut Bun</td><td>$1.00</td><td>No</td></tr>
+<tr><td>Red Bean Bun</td><td>$1.00</td><td>No</td></tr>
+<tr><td>Dried Mulberries</td><td>$3.00</td><td>No</td></tr>
+<tr><td>Cashew Nuts and White Mushrooms</td><td>$4.95</td><td>No</td></tr>
+<tr><td>General Tso's Chicken</td><td>$5.50</td><td>Yes</td></tr>
+<tr><td>Eggplant with Chili Sauce</td><td>$6.50</td><td>Yes</td></tr>
+</table>

@@ -1,0 +1,5 @@
+PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2005] Unknown MySQL server host 'db.example.com' (0) in {{!}}:2
+Stack trace:
+#0 {{!}}(2): PDO->__construct('mysql:host=db.e...', 'penguin', 'top^hat')
+#1 {main}
+  thrown in {{!}} on line 2

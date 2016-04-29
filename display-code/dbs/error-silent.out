@@ -1,0 +1,2 @@
+Couldn't insert!
+SQL Error=HY000, DB Error=1, Message=table dishes has no column named dish_size

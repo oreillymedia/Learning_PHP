@@ -1,0 +1,5 @@
+<table><tr><th>ID</th><th>Name</th><th>Phone</th><th>Favorite Dish</th></tr><tr><td>0</td><td>David</td><td>567-2323</td><td>Red Bean Bun</td></tr>
+<tr><td>0</td><td>Alice</td><td>1234</td><td>Walnut Bun</td></tr>
+<tr><td>0</td><td>Bob</td><td>1-234-567-9876</td><td>Dried Mulberries</td></tr>
+<tr><td>0</td><td>Charlie</td><td>+1234</td><td>Cashew Nuts and White Mushrooms</td></tr>
+</table>

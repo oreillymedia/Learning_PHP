@@ -1,0 +1,16 @@
+strtolower() says: 
+   please stop shouting.
+   venligst stoppe r�ben.
+   h�y dừng la h�t.
+mb_strtolower() says: 
+   please stop shouting.
+   venligst stoppe råben.
+   hãy dừng la hét.
+strtoupper() says: 
+   PLEASE STOP SHOUTING.
+   VENLIGST STOPPE RåBEN.
+   HãY D���NG LA HéT.
+mb_strtoupper() says: 
+   PLEASE STOP SHOUTING.
+   VENLIGST STOPPE RÅBEN.
+   HÃY DỪNG LA HÉT.

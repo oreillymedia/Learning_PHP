@@ -1,0 +1,2 @@
+<?php
+process_form();

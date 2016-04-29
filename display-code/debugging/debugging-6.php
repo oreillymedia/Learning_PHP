@@ -1,0 +1,1 @@
+$total_price += $price * $tax_rate;

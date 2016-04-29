@@ -1,0 +1,13 @@
+<form method="POST" action="{{d}}math-form.php">
+<table>
+    
+    <tr><td>First Number:</td><td><input name="num1" type="text" /></td></tr>
+    <tr><td>Operation:</td>
+        <td><select name="op"><option  value="0">+</option><option  value="1">/</option><option  value="2">*</option><option  value="3">-</option></select></td>
+    </tr>
+    <tr><td>Second Number:</td><td><input name="num2" type="text" /></td></tr>
+
+    <tr><td colspan="2" align="center"><input value="Calculate" type="submit" />    </td></tr>
+
+</table>
+</form>

@@ -1,0 +1,5 @@
+PHP Fatal error:  Uncaught Exception: $ingredients must be an array in construct-exception.php:9
+Stack trace:
+#0 exception-use.php(2): Entree->__construct('Glass of Milk', 'milk')
+#1 {main}
+  thrown in construct-exception.php on line 9

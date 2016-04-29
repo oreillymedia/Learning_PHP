@@ -1,0 +1,5 @@
+"I'm customer 56 and I want a half-pound of corned beef."
+"I'm customer 29 and I want three knishes."
+"I'm customer 56 and I want two pounds of pastrami."
+"I'm customer 77 and I'm returning this rye bread -- it's stale."
+"I'm customer 29 and I want a salami."

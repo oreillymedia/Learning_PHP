@@ -1,0 +1,12 @@
+<form method="POST" action="{{d}}order-form.php">
+<table>
+    
+    <tr><th>Product</th><td>Quantity</td></tr>
+    <tr><td>b:</td>
+        <td><input name="quantity_a" type="text" /></td></tr>
+    <tr><td>d:</td>
+        <td><input name="quantity_c" type="text" /></td></tr>
+    <tr><td colspan="2" align="center"><input value="Order" type="submit" />    </td></tr>
+
+</table>
+</form>

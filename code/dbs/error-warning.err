@@ -1,0 +1,1 @@
+PHP Warning:  PDO::exec(): SQLSTATE[HY000]: General error: 1 table dishes has no column named dish_size in {{!}}error-warning.php on line 10

@@ -1,0 +1,2 @@
+1	phptest.php
+2	phpinfo.php

@@ -1,0 +1,8 @@
+<html>
+<head>Choose Your Site Version</head>
+<body>
+<a href="/basic.php">Basic</a>
+ or
+<a href="/advanced.php">Advanced</a>
+</body>
+</html>

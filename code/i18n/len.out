@@ -1,0 +1,2 @@
+strlen() says 6 for cheese and 8 for τυρί.
+mb_strlen() says 6 for cheese and 4 for τυρί.

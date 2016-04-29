@@ -1,0 +1,1 @@
+<?php $_POST['comments'] = 'I <b>love</b> sweet <div class="fancy">rice</div> & tea.';

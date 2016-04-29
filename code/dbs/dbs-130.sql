@@ -1,0 +1,1 @@
+SELECT * FROM dishes ORDER BY price LIMIT 1

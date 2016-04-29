@@ -1,0 +1,6 @@
+<html>
+  <head><title>Background Color Example</title>
+  <body style="background-color:">
+    <p>What color did you pick?</p>
+  </body>
+</html>

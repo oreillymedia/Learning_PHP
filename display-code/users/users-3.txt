@@ -1,0 +1,2 @@
+Warning: Cannot modify header information - headers already sent by
+(output started at /www/htdocs/catalog.php:2) in /www/htdocs/catalog.php on line 4

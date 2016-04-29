@@ -1,0 +1,9 @@
+% php -a
+Interactive shell
+
+php > print strlen("mushrooms");
+9
+php > $releases = simplexml_load_file("https://secure.php.net/releases/feed.php");
+php > print $releases->entry[0]->title;
+PHP 5.6.12 released!
+php >

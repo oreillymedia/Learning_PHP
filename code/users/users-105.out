@@ -1,0 +1,6 @@
+<form method="POST" action="{{!}}">
+  
+  Username: <input name="username" type="text" /> <br/>
+  Password: <input name="password" type="password" /> <br/>
+  <input value="Log In" type="submit" />
+</form>

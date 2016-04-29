@@ -1,0 +1,3 @@
+<?php
+
+$sizes = Entree::getSizes();

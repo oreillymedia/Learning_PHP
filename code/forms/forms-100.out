@@ -1,0 +1,5 @@
+<form method="post" action="{{!}}">
+ Your name: <input type="text" name="my_name" >
+<br>
+<input type="submit" value="Say Hello">
+</form>

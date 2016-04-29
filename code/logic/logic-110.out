@@ -1,0 +1,1 @@
+This is always printed.Welcome aboard, trusted user.This is only printed if $logged_in is true.This is also always printed.

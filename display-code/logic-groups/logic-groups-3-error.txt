@@ -1,0 +1,1 @@
+PHP Warning:  Missing argument 1 for page_header2( )

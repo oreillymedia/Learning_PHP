@@ -1,0 +1,16 @@
+Before Sorting:
+ $dinner: 0 Sweet Corn and Asparagus
+ $dinner: 1 Lemon Chicken
+ $dinner: 2 Braised Bamboo Fungus
+   $meal: breakfast Walnut Bun
+   $meal: lunch Cashew Nuts and White Mushrooms
+   $meal: snack Dried Mulberries
+   $meal: dinner Eggplant with Chili Sauce
+After Sorting:
+ $dinner: 0 Braised Bamboo Fungus
+ $dinner: 1 Lemon Chicken
+ $dinner: 2 Sweet Corn and Asparagus
+   $meal: 0 Cashew Nuts and White Mushrooms
+   $meal: 1 Dried Mulberries
+   $meal: 2 Eggplant with Chili Sauce
+   $meal: 3 Walnut Bun

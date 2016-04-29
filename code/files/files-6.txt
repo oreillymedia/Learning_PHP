@@ -1,0 +1,2 @@
+Warning: fopen(/usr/local/dishes.txt): failed to open stream: Permission denied in 
+dishes.php on line 5

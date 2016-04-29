@@ -1,0 +1,4 @@
+The string "x54321" is less than the string "x5678".
+The string "54321" is less than the string "5678".
+The string "6 pack" is greater than than the string "55 card stud".
+The string "6 pack" is greater than the number 55.

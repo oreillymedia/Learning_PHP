@@ -1,0 +1,1 @@
+$price = $quantity = 5;

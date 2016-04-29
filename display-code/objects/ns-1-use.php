@@ -1,0 +1,1 @@
+\Tiny\Fruit::munch("banana");

@@ -1,0 +1,1 @@
+<?php $defaults['sweet'] = 'square';

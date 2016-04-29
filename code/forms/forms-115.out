@@ -1,0 +1,7 @@
+<select name="main_dish[]" multiple><option value="cuke" selected>Braised Sea Cucumber</option>
+<option value="stomach">Sauteed Pig's Stomach</option>
+<option value="tripe">Sauteed Tripe with Wine Sauce</option>
+<option value="taro" selected>Stewed Pork with Taro</option>
+<option value="giblets">Baked Giblets with Salt</option>
+<option value="abalone">Abalone with Marrow and Duck Feet</option>
+</select>

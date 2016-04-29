@@ -1,0 +1,10 @@
+Before Sorting:
+   $meal: breakfast Walnut Bun
+   $meal: lunch Cashew Nuts and White Mushrooms
+   $meal: snack Dried Mulberries
+   $meal: dinner Eggplant with Chili Sauce
+After Sorting:
+   $meal: lunch Cashew Nuts and White Mushrooms
+   $meal: snack Dried Mulberries
+   $meal: dinner Eggplant with Chili Sauce
+   $meal: breakfast Walnut Bun

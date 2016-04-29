@@ -1,0 +1,1 @@
+$mailer->send($message);

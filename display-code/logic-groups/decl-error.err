@@ -1,0 +1,5 @@
+PHP Fatal error:  Uncaught TypeError: Argument 1 passed to countdown() must be of the type integer, string given, called in decl-error.php on line 2 and defined in countdown.php:2
+Stack trace:
+#0 decl-error.php(2): countdown('grunt')
+#1 {main}
+  thrown in countdown.php on line 2

@@ -1,0 +1,8 @@
+<html>
+<head><title>{page_title}</title></head>
+<body bgcolor="{color}">
+
+<h1>Hello, {name}</h1>
+
+</body>
+</html>

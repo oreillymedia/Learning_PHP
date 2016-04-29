@@ -1,0 +1,2 @@
+substr() says: In Russia, I like to eat ка�
+mb_substr() says: In Russia, I like to eat каша 

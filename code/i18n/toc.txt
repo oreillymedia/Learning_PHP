@@ -1,0 +1,12 @@
+1	len.php
+-	len.out
+2	substr.php
+-	substr.out
+3	case.php
+-	case.out
+4	sort.php
+5	msgcat.php
+6	msgfmt.php
+-	msgfmt.out
+7	msgfmt-num.php
+-	msgfmt-num.out

@@ -1,0 +1,1 @@
+@PHP Fatal error:  Uncaught PDOException: SQLSTATE\[HY000\] \[2005\] Unknown MySQL server host 'db.dev.example.com' \(0\) in .+@

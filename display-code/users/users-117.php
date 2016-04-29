@@ -1,0 +1,1 @@
+setcookie('short-userid','');

@@ -1,0 +1,31 @@
+<form method="POST" action="{{d}}complete.php">
+<table>
+    
+    <tr><td>Your Name:</td><td><input name="name" type="text" /></td></tr>
+
+    <tr><td>Size:</td>
+        <td><input name="size" value="medium" type="radio" /> Small <br/>
+            <input name="size" value="medium" type="radio" checked /> Medium <br/>
+            <input name="size" value="medium" type="radio" /> Large <br/>
+        </td></tr>
+
+    <tr><td>Pick one sweet item:</td>
+        <td><select name="sweet"><option  value="puff">Sesame Seed Puff</option><option  value="square">Coconut Milk Gelatin Square</option><option  value="cake">Brown Sugar Cake</option><option  value="ricemeat">Sweet Rice and Meat</option></select></td>
+    </tr>
+
+    <tr><td>Pick two main dishes:</td>
+        <td><select name="main_dish[]" multiple><option  value="cuke">Braised Sea Cucumber</option><option  value="stomach">Sauteed Pig's Stomach</option><option  value="tripe">Sauteed Tripe with Wine Sauce</option><option  value="taro">Stewed Pork with Taro</option><option  value="giblets">Baked Giblets with Salt</option><option  value="abalone">Abalone with Marrow and Duck Feet</option></select></td>
+    </tr>
+
+    <tr><td>Do you want your order delivered?</td>
+        <td><input name="delivery" value="yes" type="checkbox" checked /> Yes
+        </td></tr>
+
+    <tr><td>Enter any special instructions.<br/>
+        If you want your order delivered, put your address here:</td>
+        <td><textarea name="comments"></textarea></td></tr>
+
+    <tr><td colspan="2" align="center"><input value="Order" type="submit" />    </td></tr>
+
+</table>
+</form>

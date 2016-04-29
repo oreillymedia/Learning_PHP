@@ -1,0 +1,20 @@
+<form method="POST" action="{{d}}users-4a.php">
+<table>
+    
+    <tr><th>Product</th><td>Quantity</td></tr>
+    <tr><td>Braised Sea Cucumber:</td>
+        <td><input name="quantity_cuke" type="text" value="0" /></td></tr>
+    <tr><td>Sauteed Pig's Stomach:</td>
+        <td><input name="quantity_stomach" type="text" value="0" /></td></tr>
+    <tr><td>Sauteed Tripe with Wine Sauce:</td>
+        <td><input name="quantity_tripe" type="text" value="0" /></td></tr>
+    <tr><td>Stewed Pork with Taro:</td>
+        <td><input name="quantity_taro" type="text" value="0" /></td></tr>
+    <tr><td>Baked Giblets with Salt:</td>
+        <td><input name="quantity_giblets" type="text" value="0" /></td></tr>
+    <tr><td>Abalone with Marrow and Duck Feet:</td>
+        <td><input name="quantity_abalone" type="text" value="0" /></td></tr>
+    <tr><td colspan="2" align="center"><input value="Order" type="submit" />    </td></tr>
+
+</table>
+</form>

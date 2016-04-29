@@ -1,0 +1,12 @@
+<form method="POST" action="{{d}}price-form.php">
+<table>
+        <tr>
+        <td>Minimum Price:</td>
+        <td><input name="min_price" type="text" /></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+            <input name="search" value="Search" type="submit" /></td>
+    </tr>
+</table>
+</form>

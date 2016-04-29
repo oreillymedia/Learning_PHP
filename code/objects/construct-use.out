@@ -1,0 +1,22 @@
+object(Entree)#1 (2) {
+  ["name"]=>
+  string(12) "Chicken Soup"
+  ["ingredients"]=>
+  array(2) {
+    [0]=>
+    string(7) "chicken"
+    [1]=>
+    string(5) "water"
+  }
+}
+object(Entree)#2 (2) {
+  ["name"]=>
+  string(16) "Chicken Sandwich"
+  ["ingredients"]=>
+  array(2) {
+    [0]=>
+    string(7) "chicken"
+    [1]=>
+    string(5) "bread"
+  }
+}

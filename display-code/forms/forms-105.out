@@ -1,0 +1,11 @@
+<form method="post" action="order.php">
+Your Order: <select name="order">
+<option>Sesame Seed Puff</option>
+<option>Coconut Milk Gelatin Square</option>
+<option>Brown Sugar Cake</option>
+<option>Sweet Rice and Meat</option>
+
+</select>
+<br/>
+<input type="submit" value="Order">
+</form>

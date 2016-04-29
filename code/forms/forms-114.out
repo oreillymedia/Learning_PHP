@@ -1,0 +1,5 @@
+<select name="sweet"><option value="puff"> Sesame Seed Puff</option>
+<option value="square" selected> Coconut Milk Gelatin Square</option>
+<option value="cake"> Brown Sugar Cake</option>
+<option value="ricemeat"> Sweet Rice and Meat</option>
+</select>

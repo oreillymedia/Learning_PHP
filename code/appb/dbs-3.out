@@ -1,0 +1,12 @@
+<form method="POST" action="{{d}}dbs-3.php">
+<table>
+        <tr>
+        <td>Dish:</td>
+        <td><select name="dish_id"><option  value="2">Cashew Nuts and White Mushrooms</option><option  value="3">Dried Mulberries</option><option  value="4">Eggplant with Chili Sauce</option><option  value="6">General Tso's Chicken</option><option  value="5">Red Bean Bun</option><option  value="1">Walnut Bun</option></select></td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+            <input name="info" value="Get Dish Info" type="submit" /></td>
+    </tr>
+</table>
+</form>
