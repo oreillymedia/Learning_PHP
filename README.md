@@ -54,7 +54,7 @@ then the basename of the code example, e.g. "datetime/interval"
 ### Install software
 
 In order to run the examples you'll need
-* [PHP](http://php.net/downloads.php)
+* [PHP](http://php.net/downloads.php) - with certain extensions enabled and XML support (e.g. php7.0-xml on linux-based systems)
 * [Composer](https://getcomposer.org/download/) - a dependency management tool for PHP
 installed on your local system.
 
@@ -96,7 +96,48 @@ Generating autoload files
 To download all dependencies necessary issue:
 ```
 $ cd code
-$ ../composer.phar install
+$ $ ../composer.phar install
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Package operations: 26 installs, 0 updates, 0 removals
+  - Installing jakub-onderka/php-console-color (0.1) Loading from cache
+  - Installing phpdocumentor/reflection-docblock (2.0.4) Downloading: 100%         
+  - Installing phpunit/php-token-stream (1.4.8) Downloading: 100%         
+  - Installing symfony/yaml (v2.7.5) Downloading: 100%         
+  - Installing sebastian/version (1.0.6) Downloading: 100%         
+  - Installing sebastian/global-state (1.1.0) Downloading: 100%         
+  - Installing sebastian/recursion-context (1.0.1) Downloading: 100%         
+  - Installing sebastian/exporter (1.2.1) Downloading: 100%         
+  - Installing sebastian/environment (1.3.2) Downloading: 100%         
+  - Installing sebastian/diff (1.3.0) Loading from cache
+  - Installing sebastian/comparator (1.2.0) Downloading: 100%         
+  - Installing phpunit/php-text-template (1.2.1) Downloading: 100%         
+  - Installing doctrine/instantiator (1.0.5) Downloading: 100%         
+  - Installing phpunit/phpunit-mock-objects (2.3.8) Downloading: 100%         
+  - Installing phpunit/php-timer (1.0.7) Downloading: 100%         
+  - Installing phpunit/php-file-iterator (1.4.1) Downloading: 100%         
+  - Installing phpunit/php-code-coverage (2.2.4) Downloading: 100%         
+  - Installing phpspec/prophecy (v1.5.0) Downloading: 100%         
+  - Installing phpunit/phpunit (4.8.11) Downloading: 100%         
+  - Installing symfony/var-dumper (v2.7.5) Downloading: 100%         
+  - Installing symfony/console (v2.7.5) Downloading: 100%         
+  - Installing nikic/php-parser (v1.4.1) Downloading: 100%         
+  - Installing jakub-onderka/php-console-highlighter (v0.3.2) Downloading: 100%         
+  - Installing dnoegel/php-xdg-base-dir (0.1) Downloading: 100%         
+  - Installing psy/psysh (v0.5.2) Downloading: 100%         
+  - Installing swiftmailer/swiftmailer (v5.4.1) Downloading: 100%         
+phpdocumentor/reflection-docblock suggests installing dflydev/markdown (~1.0)
+phpdocumentor/reflection-docblock suggests installing erusev/parsedown (~1.0)
+sebastian/global-state suggests installing ext-uopz (*)
+phpunit/phpunit-mock-objects suggests installing ext-soap (*)
+phpunit/php-code-coverage suggests installing ext-xdebug (>=2.2.1)
+phpunit/phpunit suggests installing phpunit/php-invoker (~1.1)
+symfony/var-dumper suggests installing ext-symfony_debug ()
+symfony/console suggests installing psr/log (For using the console logger)
+symfony/console suggests installing symfony/event-dispatcher ()
+symfony/console suggests installing symfony/process ()
+psy/psysh suggests installing ext-pdo-sqlite (The doc command requires SQLite to work.)
+Generating autoload files
 ```
 before running any examples with the help of `runner.php`
 
@@ -105,6 +146,7 @@ before running any examples with the help of `runner.php`
 If all dependencies are met, feel free to use one example:
 ```
 $ ./runner.php --code=datetime/interval
+  OK: datetime/interval
 ```
 
 ## Working with the examples
