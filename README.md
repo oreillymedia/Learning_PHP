@@ -51,6 +51,8 @@ then the basename of the code example, e.g. "datetime/interval"
 ```
 ## Preconditions
 
+### Install software
+
 In order to run the examples you'll need
 * [PHP](http://php.net/downloads.php)
 * [Composer](https://getcomposer.org/download/) - a dependency management tool for PHP
@@ -76,6 +78,33 @@ Copyright (c) 1997-2016 The PHP Group
 Zend Engine v3.0.0, Copyright (c) 1998-2016 Zend Technologies
     with Zend OPcache v7.0.8-0ubuntu0.16.04.3, Copyright (c) 1999-2016, by Zend Technologies
 ...
+```
+
+### Download dependencies
+
+In order to fully start the examples, you need to download all dependencies with the help of composer:
+```
+$ ./composer.phar install
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Package operations: 2 installs, 0 updates, 0 removals
+  - Installing jakub-onderka/php-console-color (0.1) Downloading: 100%         
+  - Installing sebastian/diff (1.3.0) Downloading: 100%         
+Generating autoload files
+```
+
+To download all dependencies necessary issue:
+```
+$ cd code
+$ ../composer.phar install
+```
+before running any examples with the help of `runner.php`
+
+### Verify your setup
+
+If all dependencies are met, feel free to use one example:
+```
+$ ./runner.php --code=datetime/interval
 ```
 
 ## Working with the examples
