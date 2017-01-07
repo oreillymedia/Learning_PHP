@@ -49,6 +49,36 @@ extension, e.g. "datetime".
 CODE should be the name of a chapter code directory, then /,
 then the basename of the code example, e.g. "datetime/interval"
 ```
+## Preconditions
+
+In order to run the examples you'll need
+* [PHP](http://php.net/downloads.php)
+* [Composer](https://getcomposer.org/download/) - a dependency management tool for PHP
+installed on your local system.
+
+In order to verify things are working fine, issue the commands and check their output respectively:
+```
+# This is example output on a linux-based system:
+
+$ php composer.phar 
+   ______
+  / ____/___  ____ ___  ____  ____  ________  _____
+ / /   / __ \/ __ `__ \/ __ \/ __ \/ ___/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ (__  )  __/ /
+\____/\____/_/ /_/ /_/ .___/\____/____/\___/_/
+                    /_/
+Composer version 1.3.1 2017-01-07 18:08:51
+.....
+
+$ php -v
+PHP 7.0.8-0ubuntu0.16.04.3 (cli) ( NTS )
+Copyright (c) 1997-2016 The PHP Group
+Zend Engine v3.0.0, Copyright (c) 1998-2016 Zend Technologies
+    with Zend OPcache v7.0.8-0ubuntu0.16.04.3, Copyright (c) 1999-2016, by Zend Technologies
+...
+```
+
+## Working with the examples
 
 For example, you can try `runner.php --code=datetime/interval` or `runner.php --chapter=datetime`. `runner.php` depends on a few things installable by Composer. Run `composer install` from the same directory that `runner.php` is in to install them. A lot of the code examples depend on other things installed by Composer as well. Run `composer install` from the `code` subdirectory to install them.
 
