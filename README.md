@@ -7,7 +7,7 @@ This is the example code that from [Learning PHP](http://shop.oreilly.com/produc
 
 See an error? Report it [here](http://oreilly.com/catalog/errata.csp?isbn=0636920043034), or simply fork and send us a pull request.
 
-If you want a copy of all of the example code snippets in this repo, lick the Download Zip button to the right to download everything.
+If you want a copy of all of the example code snippets in this repo, click the Download Zip button to the right to download everything.
 
 ## How do I use this code?
 
@@ -49,6 +49,107 @@ extension, e.g. "datetime".
 CODE should be the name of a chapter code directory, then /,
 then the basename of the code example, e.g. "datetime/interval"
 ```
+## Preconditions
+
+### Install software
+
+In order to run the examples you'll need
+* [PHP](http://php.net/downloads.php) - with certain extensions enabled and XML support (e.g. php7.0-xml on linux-based systems)
+* [Composer](https://getcomposer.org/download/) - a dependency management tool for PHP
+installed on your local system.
+
+In order to verify things are working fine, issue the commands and check their output respectively:
+```
+# This is example output on a linux-based system:
+
+$ php composer.phar 
+   ______
+  / ____/___  ____ ___  ____  ____  ________  _____
+ / /   / __ \/ __ `__ \/ __ \/ __ \/ ___/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ (__  )  __/ /
+\____/\____/_/ /_/ /_/ .___/\____/____/\___/_/
+                    /_/
+Composer version 1.3.1 2017-01-07 18:08:51
+.....
+
+$ php -v
+PHP 7.0.8-0ubuntu0.16.04.3 (cli) ( NTS )
+Copyright (c) 1997-2016 The PHP Group
+Zend Engine v3.0.0, Copyright (c) 1998-2016 Zend Technologies
+    with Zend OPcache v7.0.8-0ubuntu0.16.04.3, Copyright (c) 1999-2016, by Zend Technologies
+...
+```
+
+### Download dependencies
+
+In order to fully start the examples, you need to download all dependencies with the help of composer:
+```
+$ ./composer.phar install
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Package operations: 2 installs, 0 updates, 0 removals
+  - Installing jakub-onderka/php-console-color (0.1) Downloading: 100%         
+  - Installing sebastian/diff (1.3.0) Downloading: 100%         
+Generating autoload files
+```
+
+To download all dependencies necessary issue:
+```
+$ cd code
+$ $ ../composer.phar install
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Package operations: 26 installs, 0 updates, 0 removals
+  - Installing jakub-onderka/php-console-color (0.1) Loading from cache
+  - Installing phpdocumentor/reflection-docblock (2.0.4) Downloading: 100%         
+  - Installing phpunit/php-token-stream (1.4.8) Downloading: 100%         
+  - Installing symfony/yaml (v2.7.5) Downloading: 100%         
+  - Installing sebastian/version (1.0.6) Downloading: 100%         
+  - Installing sebastian/global-state (1.1.0) Downloading: 100%         
+  - Installing sebastian/recursion-context (1.0.1) Downloading: 100%         
+  - Installing sebastian/exporter (1.2.1) Downloading: 100%         
+  - Installing sebastian/environment (1.3.2) Downloading: 100%         
+  - Installing sebastian/diff (1.3.0) Loading from cache
+  - Installing sebastian/comparator (1.2.0) Downloading: 100%         
+  - Installing phpunit/php-text-template (1.2.1) Downloading: 100%         
+  - Installing doctrine/instantiator (1.0.5) Downloading: 100%         
+  - Installing phpunit/phpunit-mock-objects (2.3.8) Downloading: 100%         
+  - Installing phpunit/php-timer (1.0.7) Downloading: 100%         
+  - Installing phpunit/php-file-iterator (1.4.1) Downloading: 100%         
+  - Installing phpunit/php-code-coverage (2.2.4) Downloading: 100%         
+  - Installing phpspec/prophecy (v1.5.0) Downloading: 100%         
+  - Installing phpunit/phpunit (4.8.11) Downloading: 100%         
+  - Installing symfony/var-dumper (v2.7.5) Downloading: 100%         
+  - Installing symfony/console (v2.7.5) Downloading: 100%         
+  - Installing nikic/php-parser (v1.4.1) Downloading: 100%         
+  - Installing jakub-onderka/php-console-highlighter (v0.3.2) Downloading: 100%         
+  - Installing dnoegel/php-xdg-base-dir (0.1) Downloading: 100%         
+  - Installing psy/psysh (v0.5.2) Downloading: 100%         
+  - Installing swiftmailer/swiftmailer (v5.4.1) Downloading: 100%         
+phpdocumentor/reflection-docblock suggests installing dflydev/markdown (~1.0)
+phpdocumentor/reflection-docblock suggests installing erusev/parsedown (~1.0)
+sebastian/global-state suggests installing ext-uopz (*)
+phpunit/phpunit-mock-objects suggests installing ext-soap (*)
+phpunit/php-code-coverage suggests installing ext-xdebug (>=2.2.1)
+phpunit/phpunit suggests installing phpunit/php-invoker (~1.1)
+symfony/var-dumper suggests installing ext-symfony_debug ()
+symfony/console suggests installing psr/log (For using the console logger)
+symfony/console suggests installing symfony/event-dispatcher ()
+symfony/console suggests installing symfony/process ()
+psy/psysh suggests installing ext-pdo-sqlite (The doc command requires SQLite to work.)
+Generating autoload files
+```
+before running any examples with the help of `runner.php`
+
+### Verify your setup
+
+If all dependencies are met, feel free to use one example:
+```
+$ ./runner.php --code=datetime/interval
+  OK: datetime/interval
+```
+
+## Working with the examples
 
 For example, you can try `runner.php --code=datetime/interval` or `runner.php --chapter=datetime`. `runner.php` depends on a few things installable by Composer. Run `composer install` from the same directory that `runner.php` is in to install them. A lot of the code examples depend on other things installed by Composer as well. Run `composer install` from the `code` subdirectory to install them.
 
