@@ -7,7 +7,7 @@ This is the example code that from [Learning PHP](http://shop.oreilly.com/produc
 
 See an error? Report it [here](http://oreilly.com/catalog/errata.csp?isbn=0636920043034), or simply fork and send us a pull request.
 
-If you want a copy of all of the example code snippets in this repo, lick the Download Zip button to the right to download everything.
+If you want a copy of all of the example code snippets in this repo, click the Download Zip button to the right to download everything.
 
 ## How do I use this code?
 
